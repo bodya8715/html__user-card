@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.user__card {
+    width: 30%;
+    display: inline-block;
+}
+
+.user__name {
+    text-align: center;
+    background-color: #E6EBEE;
+    padding: 20px 90px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.user__name h1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user__info {
+    background-color: #393C45;
+    padding: 25px 40px 15px 40px;
+    color:#fff;
+}
+
+.user__image {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border:5px solid blue;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px; 
+}
+
+.user__image img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+}
+.user__text {
+    text-align: justify;
+}
+
+.user__social {
+    background-color: #393C45;
+    padding: 15px 40px 20px 40px;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.user__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+.user__item:last-child {
+    margin-right: 0;
+}
+
+.user__buttons {
+    padding: 25px 0px;
+}
+
+.user__buttons button {
+    padding: 10px 0px;
+    border:none;
+    border-radius: 25px;
+    margin-right: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 150px;
+}
+
+.user__buttons button:last-child {
+    margin-right: 0px;
+}
+
+.user__follow__button {
+    background-color: #4169E2;
+}
